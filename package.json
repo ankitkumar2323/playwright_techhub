@@ -1,0 +1,27 @@
+{
+  "name": "playwright_testing",
+  "version": "1.0.0",
+  "main": "techhub.spec.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.9",
+    "chai": "^5.1.1",
+    "mocha": "^10.6.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ajv": "^8.16.0",
+    "axios": "^1.7.2",
+    "winston": "^3.13.0"
+  },
+  "description": "",
+  "type": "module"
+}
